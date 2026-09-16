@@ -1,0 +1,13 @@
+*{box-sizing:border-box}html,body{margin:0;background:#fff;color:#111827;font-family:Arial,Helvetica,sans-serif}
+.site{width:min(1180px,calc(100% - 64px));margin:auto;padding:54px 0 42px;display:grid;grid-template-columns:270px 300px minmax(330px,1fr);gap:74px;align-items:start}
+.profile{text-align:center}.lisa-logo{width:260px;display:block;margin:0 auto 42px}.headshot{width:250px;height:350px;object-fit:cover;object-position:center 26%;display:block;margin:auto}
+.resources{min-height:650px;display:flex;flex-direction:column;align-items:center}.brochure{width:250px;min-height:108px;margin:16px auto 28px;padding:22px;border-radius:58px;background:#ff3034;box-shadow:15px 18px 22px #0003;color:#fff;text-decoration:none;font-weight:800;font-size:17px;line-height:1.05;text-align:center;display:flex;align-items:center;justify-content:center}
+.socials{margin-top:auto;display:flex;gap:24px;align-items:center}.socials a{width:58px;height:58px;display:grid;place-items:center;text-decoration:none}
+.ig{border-radius:15px;background:radial-gradient(circle at 32% 100%,#ffd600 0 18%,#ff7a00 28%,#ff0169 52%,#d300c5 72%,#7638fa 100%);color:#fff;font-size:58px;line-height:1}
+.fb{border-radius:50%;background:#1877f2;color:#fff;font:bold 53px/1 Arial;padding-top:8px}.mail{border:5px solid #000;border-radius:50%;color:#000;font-size:34px}
+.kw{width:220px;margin-top:62px}.contact{padding-top:28px}.contact h1{margin:0;font-size:26px}.contact>p{font-size:12px;color:#344054;margin:9px 0 20px}.contact hr{border:0;border-top:1px dashed #d0d5dd;margin-bottom:28px}
+label{display:block;font-size:13px;font-weight:600;margin-bottom:8px}label b{color:#d92d20}.names{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+input,textarea{width:100%;border:1px solid #cbd5e1;padding:9px 10px;margin-bottom:20px;font:inherit}textarea{min-height:105px;resize:vertical}
+button{display:block;width:140px;height:42px;margin:10px auto;border:0;background:#050505;color:#fff;font-weight:700;cursor:pointer}
+@media(max-width:900px){.site{width:min(520px,calc(100% - 40px));padding:36px 0 48px;display:flex;flex-direction:column;align-items:center}.profile,.resources,.contact{width:100%}.lisa-logo{width:min(330px,82vw);margin-bottom:42px}.headshot{width:min(350px,86vw);height:auto;margin-bottom:54px}.resources{min-height:0}.brochure{width:min(350px,88vw);min-height:118px;margin:0 auto 30px;font-size:21px}.socials{margin-top:38px;justify-content:center}.kw{width:min(280px,70vw);margin:54px auto 66px}.contact{padding-top:0}.contact h1,.contact>p{text-align:center}.names{grid-template-columns:1fr;gap:0}}
+@media(max-width:420px){.site{width:calc(100% - 32px);padding-top:28px}.brochure{min-height:108px;font-size:19px}}
