@@ -1,32 +1,66 @@
-<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lisa Hintgen | Real Estate Broker</title>
-<link rel="stylesheet" href="style.css"></head>
-<body><main class="site">
-<section class="profile">
-<img class="lisa-logo" src="assets/lisa-logo.jpg" alt="Lisa Hintgen Real Estate Broker">
-<img class="headshot" src="assets/lisa-headshot.jpg" alt="Lisa Hintgen">
-</section>
-<section class="resources">
-<div class="brochures">
-<a class="brochure" href="SIGNATURE%20HOME%20LAUNCH_BROCHURE_FINAL_MOBILE.pdf" target="_blank">SIGNATURE<br>HOME LAUNCH<br>EXPERIENCE</a>
-<a class="brochure" href="SIGNATURE%20HOME%20BUYER%20GUIDE.pdf" target="_blank">SIGNATURE<br>HOME BUYER<br>GUIDE</a>
-</div>
-<nav class="socials">
-<a href="https://www.instagram.com/lhintgen/" target="_blank" aria-label="Instagram"><img src="assets/instagram-icon.png" alt=""></a>
-<a href="https://www.facebook.com/lisa.read.10" target="_blank" aria-label="Facebook"><img src="assets/facebook-icon.png" alt=""></a>
-<a href="mailto:lisahintgen@kw.com" aria-label="Email"><img src="assets/email-icon.png" alt=""></a>
-</nav>
-<img class="kw" src="assets/kw-integrity-logo.png" alt="KW Integrity Keller Williams Realty">
-</section>
-<section class="contact">
-<h1>CONTACT LISA</h1><p>I will respond as soon as possible!</p><hr>
-<form action="https://formsubmit.co/lisahintgen@kw.com" method="POST">
-<input type="hidden" name="_subject" value="New inquiry from lisarealestate.net">
-<input type="hidden" name="_captcha" value="false">
-<label>Full Name <b>*</b></label><div class="names"><input name="First Name" required><input name="Last Name" required></div>
-<label>Email <b>*</b></label><input type="email" name="Email" required>
-<label>Tell me how I can help you! <b>*</b></label><textarea name="Message" required></textarea>
-<button>SUBMIT</button></form>
-</section></main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lisa Hintgen | Real Estate Broker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="site">
+    <section class="profile">
+      <img class="lisa-logo" src="assets/lisa-logo.jpg" alt="Lisa Hintgen Real Estate Broker">
+      <img class="headshot" src="assets/lisa-headshot.jpg" alt="Lisa Hintgen">
+    </section>
+
+    <section class="resources">
+      <a class="resource-button" href="SIGNATURE%20HOME%20LAUNCH_BROCHURE_FINAL_MOBILE.pdf" target="_blank" rel="noopener">
+        SIGNATURE<br>HOME LAUNCH<br>EXPERIENCE
+      </a>
+
+      <a class="resource-button" href="SIGNATURE%20HOME%20BUYER%20GUIDE.pdf" target="_blank" rel="noopener">
+        SIGNATURE<br>HOME BUYER<br>EXPERIENCE
+      </a>
+
+      <div class="social">
+        <a href="https://www.instagram.com/lhintgen/" target="_blank" rel="noopener" aria-label="Instagram">
+          <img src="assets/instagram-icon.png" alt="Instagram">
+        </a>
+        <a href="https://www.facebook.com/lisa.read.10" target="_blank" rel="noopener" aria-label="Facebook">
+          <img src="assets/facebook-icon.png" alt="Facebook">
+        </a>
+        <a href="mailto:lisahintgen@kw.com" aria-label="Email Lisa">
+          <img src="assets/email-icon.png" alt="Email">
+        </a>
+      </div>
+
+      <img class="kw-logo" src="assets/kw-integrity-logo.png" alt="KW Integrity Keller Williams Realty">
+    </section>
+
+    <section class="contact">
+      <h1>CONTACT LISA</h1>
+      <p>I will respond as soon as possible!</p>
+      <div class="rule"></div>
+
+      <form action="https://formsubmit.co/lisahintgen@kw.com" method="POST">
+        <input type="hidden" name="_subject" value="New inquiry from lisarealestate.net">
+        <input type="hidden" name="_captcha" value="false">
+
+        <label>Full Name <span>*</span></label>
+        <div class="name-row">
+          <input type="text" name="First Name" required>
+          <input type="text" name="Last Name" required>
+        </div>
+
+        <label>Email <span>*</span></label>
+        <input type="email" name="Email" required>
+
+        <label>Tell me how I can help you! <span>*</span></label>
+        <textarea name="Message" required></textarea>
+
+        <button type="submit">SUBMIT</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
